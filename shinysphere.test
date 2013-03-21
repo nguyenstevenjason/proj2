@@ -1,0 +1,32 @@
+size 640 480 
+
+camera 0 8 8 0 0 0 0 1 0 30
+
+ambient .1 .1 .1
+diffuse 1 0 0 
+specular .75 .75 .75
+shininess 1000
+
+area 4 4 0 1 1 1 .3
+
+maxverts 4
+
+#vertex +1 +1 +1 
+#vertex +1 +1 -1
+vertex +8 -1 -8
+vertex +8 -1 +8
+vertex -8 -1 -8
+#vertex -1 +1 -1
+#vertex -1 +1 +1
+vertex -8 -1 +8
+
+diffuse 1 1 1
+
+sphere 0 0 0 1
+
+shininess 50
+
+diffuse 1 1 0
+
+tri 1 2 3
+tri 1 0 2
