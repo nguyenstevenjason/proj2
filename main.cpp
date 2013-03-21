@@ -26,7 +26,7 @@ int width, height;  // assigned from size later
 const int maxwidth = 500;
 const int maxheight = 500;
 int depth = 5; // maximum recursive depth
-float depth_of_field = -1;
+float depth_of_field = 1;
 //enum shape {sphere, triangle} ; // geometry
 int size[2] ;   // size of the image
 //vec3 lights [];
